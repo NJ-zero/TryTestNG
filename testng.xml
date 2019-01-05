@@ -3,21 +3,22 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="E:/Xunit">
         <classes>
-            <!--<class name="TestXunit.LoginTest">-->
-                <!--<methods>-->
-                    <!--<include name="fuc1"></include>-->
+            <class name="TestXunit.LoginTest">
+                <methods>
+                    <include name="fuc1"></include>
 
-                    <!--<parameter name="name" value="aaa"></parameter>-->
-                    <!--<parameter name="pwd" value=""></parameter>-->
-                    <!--<parameter name="exp" value="用户名或密码不能为空"></parameter>-->
+                    <parameter name="name" value="aaa"></parameter>
+                    <parameter name="pwd" value=""></parameter>
+                    <parameter name="exp" value="用户名或密码不能为空"></parameter>
 
-                    <!--<include name="fuc2"></include>-->
-                    <!--<include name="testLogin"></include>-->
-                    <!---->
-                <!--</methods>-->
-            <!--</class>-->
+                    <include name="fuc2"></include>
+                    <include name="testLogin"></include>
+
+                </methods>
+            </class>
             <class name="TestXunit.ShoppingTest">
                 <methods>
+                    <include name="testBuy"></include>
                     <include name="testBuy2"></include>
                 </methods>
             </class>
